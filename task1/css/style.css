@@ -1,0 +1,58 @@
+@import "screen.css" screen;
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    width: 960px;
+    margin: 0 auto;
+}
+header{
+    background-color: gray;
+    border-radius:0 0 10px 10px;
+    padding-left: 10px;
+}
+h1{
+    padding: 5px;
+    text-decoration: underline;
+    font-size: 15pt;
+}
+section{
+
+    width: 90%;
+    background-color: gainsboro;
+    border-radius: 10px;
+    margin: 5px 0;
+    padding: 10px;
+}
+section h2{
+
+    text-decoration: underline;
+    font-size: 20pt;
+}
+section p{
+    width: 260px;
+}
+div{
+margin: 50px 0;
+}
+section a{
+
+    border-radius: 10px ;
+    background-color: blue;
+    height: 15px;
+    width: 50px;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+
+    width: 960px;
+}
